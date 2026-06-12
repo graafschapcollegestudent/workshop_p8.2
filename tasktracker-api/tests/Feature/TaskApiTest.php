@@ -17,7 +17,7 @@ class TaskApiTest extends TestCase
         $response = $this->getJson('/api/tasks');
 
         $response->assertStatus(200)
-                 ->assertJsonCount(3);
+                 ->assertJsonCount(999);
     }
 
     public function test_can_create_a_task()
