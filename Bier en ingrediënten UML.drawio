@@ -1,0 +1,58 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Pagina-1" id="DEZJmvUe7nUZi4AzC_oX">
+    <mxGraphModel dx="833" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GLOyYv94wNunXp0lm4PD-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 14px; font-weight: 500; text-align: start; text-wrap-mode: nowrap;&quot;&gt;Bier&lt;/span&gt;" vertex="1">
+          <mxGeometry height="180" width="260" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GLOyYv94wNunXp0lm4PD-2" parent="GLOyYv94wNunXp0lm4PD-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ &amp;lt;&amp;lt;get,set&amp;gt;&amp;gt; Id : int&lt;br&gt;+ &amp;lt;&amp;lt;get,set&amp;gt;&amp;gt; Naam : string&lt;br&gt;+ &amp;lt;&amp;lt;get,set&amp;gt;&amp;gt; Beschrijving : string&lt;br&gt;+ &amp;lt;&amp;lt;get,set&amp;gt;&amp;gt; Alcoholpercentage : double&lt;br&gt;+ &amp;lt;&amp;lt;get,set&amp;gt;&amp;gt; Ingredienten: List&amp;lt;Ingredient&amp;gt;" vertex="1">
+          <mxGeometry height="124" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GLOyYv94wNunXp0lm4PD-3" parent="GLOyYv94wNunXp0lm4PD-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="30" width="260" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GLOyYv94wNunXp0lm4PD-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Ingrediënt" vertex="1">
+          <mxGeometry height="190" width="280" x="510" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GLOyYv94wNunXp0lm4PD-6" parent="GLOyYv94wNunXp0lm4PD-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ &amp;lt;&amp;lt;get,set&amp;gt;&amp;gt; Id : int&lt;br&gt;+ &amp;lt;&amp;lt;get,set&amp;gt;&amp;gt; Naam : string&lt;br&gt;+ &amp;lt;&amp;lt;get,set&amp;gt;&amp;gt; Type : string&lt;div&gt;+ &amp;lt;&amp;lt;get,set&amp;gt;&amp;gt; Hoeveelheid : string&lt;br&gt;+ &amp;lt;&amp;lt;get,set&amp;gt;&amp;gt; BierId : int&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ &amp;lt;&amp;lt;get,set&amp;gt;&amp;gt; Bier? : Bier&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="280" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GLOyYv94wNunXp0lm4PD-7" parent="GLOyYv94wNunXp0lm4PD-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="60" width="280" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GLOyYv94wNunXp0lm4PD-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 14px; font-weight: 500; text-align: start; text-wrap-mode: nowrap;&quot;&gt;«interface» IEntity&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="254" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="GLOyYv94wNunXp0lm4PD-14" parent="GLOyYv94wNunXp0lm4PD-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, sans-serif; font-size: 14px; text-wrap-mode: nowrap;&quot;&gt;+ id: int &amp;lt;&amp;lt;get&amp;gt;&amp;gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GLOyYv94wNunXp0lm4PD-15" parent="GLOyYv94wNunXp0lm4PD-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="GLOyYv94wNunXp0lm4PD-17" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" value="name">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="330" y="160" as="sourcePoint" />
+            <mxPoint x="490" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GLOyYv94wNunXp0lm4PD-18" connectable="0" parent="GLOyYv94wNunXp0lm4PD-17" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLOyYv94wNunXp0lm4PD-19" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="130" y="310" as="sourcePoint" />
+            <mxPoint x="250" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GLOyYv94wNunXp0lm4PD-20" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="550" y="294" as="sourcePoint" />
+            <mxPoint x="440" y="434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
